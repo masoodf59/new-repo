@@ -1,0 +1,180 @@
+*{
+    box-sizing: border-box;
+    
+}
+.navbar{
+    background-color: black;
+  
+}
+.main-nav{
+ width: 97%;
+ margin-left: auto;
+ padding: 10px;
+}
+
+.search{
+    width: 400px;
+    background-color: black;
+    border: none;
+}
+.right{
+    justify-content: space-between;
+}
+.btn--register{
+    background-color: rgb(35, 243, 35);
+    width: 200px;
+    color: yellow;
+}
+.btn--join{
+    background-color: black;
+   box-shadow: 1px 1px 1px 1px rgba(228, 225, 225, 0.911);
+   color: white;
+   width: 100px;
+}
+
+/* main body  */
+
+.main-body{
+    background-color: rgba(0, 0, 0, 0.925);
+   overflow: hidden;
+}
+.left-sidebar{
+    margin-top: 6rem;
+    
+ 
+}
+.image-section{
+    margin-left: 140px;
+}
+.image-section > img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+.btn--profile{
+    background-color: rgb(35, 243, 35);
+    width: 190px;
+    color: yellow; 
+}
+.lists{
+    margin-left: 9em;
+   margin-top: 1rem;
+}
+
+.item{
+    list-style-type: none;
+    padding: 10px;
+    width: 240px;
+}
+.item:hover{
+    background-color: rgba(56, 56, 56, 0.514);
+    border-radius: 5px;
+}
+.btn--logout{
+    background-color: rgb(35, 243, 35);
+    width: 240px;
+    color: yellow; 
+}
+
+
+/* right-side */
+
+.right-side{
+    background-color: rgba(39, 38, 38, 0.575);
+    margin-top: 20px;
+    height:900px;
+    border-radius: 30px;
+    width: 90%;
+  
+}
+
+.search-bar{
+    width: 93%;
+    padding: 16px;
+    margin-left: auto;
+    border-radius: 20px ;
+    background-color: black;
+    border: none;
+    margin-top: .7rem;
+}
+.right-main{
+    background-color: black;
+    border: none;
+    width: 99%;
+    margin-top: 10px;
+    padding: 13px;
+    border-radius: 18px 18px 0px 0px ;
+}
+.left-part > img{
+    width: 30px;
+    height:30px;
+    border-radius: 50%;
+    margin-left: 1rem;
+}
+
+.right-ul > li{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.219);
+}
+
+.small > .active{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(14, 219, 14);
+}
+
+.chat-part{
+    background-color: rgba(0, 0, 0, 0.329);
+    height: 896px;
+    width: 99%;
+   
+}
+
+.messg1{
+    width: 35%;
+    padding: 3px;
+    border-radius: 10px 10px 10px 0px;
+    margin-left: 10px;
+}
+
+.messg2{
+    width: 45%;
+    padding: 3px;
+    border-radius: 10px 10px 10px 0px;
+    margin-left: 10px;
+}
+
+.messg4{
+    width: 35%;
+    padding: 3px;
+    border-radius: 10px 10px 0px 10px;
+    margin-left: 440px;
+    background-color: rgb(14, 219, 14);
+    color: yellowgreen;
+}
+.messg-box{
+    margin-top: 17rem;
+   
+}
+
+.messg-box > input{
+    background-color: black;
+    padding: 15px;
+    width: 92%;
+    border: none;
+    margin-left: 28px;
+    border-radius: 10px;
+    color: white;
+}
+
+.messg-box > p{
+    position: absolute;
+    margin-left: 38rem;
+    margin-top: 14px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(14, 219, 14);
+    cursor: pointer;
+}
